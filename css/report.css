@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	color: #fff;
+	background: #f0f0f0;
+}
+.carousel {
+	min-width: 1200px;
+	width: 100%;
+	height: 500px;
+	background: url(../img/repo-1.jpg) no-repeat center;
+	position: relative;
+}
+/*控制轮播的按钮*/
+.carousel ul{
+	position: absolute;
+	bottom: 10px;
+	list-style: none;
+	text-align: center;
+	width:100%;
+	font-size: 0px;
+}
+.carousel ul li{
+	display: inline-block;
+	width:14px;
+	height: 14px;
+	margin:0px 5px;
+	background: url(../img/dot.png) no-repeat right 0;
+	cursor: pointer;
+}
+/*切换样式change高亮样式*/
+.carousel ul li.change{
+	background-position: 0 0;
+}
+.carousel ul li.change1{
+	background-position: right 0;
+}
+/*左右控制轮播按钮*/
+.carousel a{
+	width:50px;
+	height:50px;
+	display: block;
+	border-radius: 25px;
+	position: absolute;
+	top:45%;
+}
+.carousel .pre{
+	background: url(../img/prev.png);
+	left:40px;
+}
+.carousel .next{
+	background: url(../img/next.png);
+	right:40px;
+}
+
+.content>p{
+	width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(31, 167, 86);
+	line-height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-top: 30px;
+}
+
+/*咨询区*/
+.info-bottom{
+	width: 1194px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+.infoContent{
+	width:284px;
+	height:300px;
+	float: left;
+	background: #fff;
+	cursor: pointer;
+	margin: 15px 7px;
+}
+.con-1{
+	width:284px;
+	position: relative;
+	height:260px;
+}
+.con-1 div{
+	position: absolute;
+}
+.con-1>a img{
+	width:100%;
+	height: 100%;
+	display: block;
+}
+.conDiv1{
+	width: 284px;
+	height:120px;
+	bottom:0px;
+}
+.conDiv1 p{
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.conDiv2{
+	display: none;
+	width: 284px;
+	height:260px;
+	background-color: rgba(31, 167, 86, 0.8);
+	top:0px;
+}
+.conDiv2 h3{
+	font-size: 14px;
+	line-height: 28px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+	padding-left: 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+.conDiv2 hr{
+	width: 90%;
+	margin: 0px auto;
+}
+.conDiv2 p{
+	margin-left: 20px;
+	margin-right: 20px;
+  	line-height: 22px;
+  	color: rgb(254, 238, 233);
+  	float: left;
+  	text-align: left;
+  	margin-top: 10px;
+  	font-size: 12px;
+}
+.con-2{
+	color: rgb(153, 153, 153);
+  	text-align: left;
+  	line-height: 40px;
+  	margin-left: 20px;
+  	font-size: 12px;
+}
+/*分隔线*/
+.line{
+	min-width:1200px;
+	width: 100%;
+	height: 5px;
+	background: url(../img/sixcolorbg.png);
+	margin-top: 80px;
+}
+

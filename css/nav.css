@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "Microsoft YaHei",Arial,"Helvetica Neue",Helvetica,Sans-serif;
+}
+/*网页头部导航区*/
+nav{
+	height: 50px;
+	background: rgba(51,51,51,0.8);
+	position: absolute;
+	z-index:3;
+	overflow: hidden;
+	top:0px;
+	left:0px;
+	display: block;
+	min-width:1200px;
+	width:100%;
+}
+/*导航左侧*/
+nav .nav-left{
+	float: left;
+	margin-left: 50px;
+}
+nav .nav-left a{
+	display: block;
+	width:100px;
+	float: left;
+	text-decoration: none;
+	color:rgba(238,238,238,0.8);
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+}
+nav .nav-left a:hover,nav .nav-right a:hover{
+	color:rgba(255,255,255,1);
+}
+/*导航右侧*/
+nav .nav-right{
+	float: right;
+	width:450px;
+	margin-right: 50px;
+}
+nav .nav-right form{
+	width:180px;
+	height:28px;
+	border-radius: 28px;
+	background-color:#666; 
+	margin-top: 11px;
+	float: left;
+	display: block;
+}
+nav .nav-right #search{
+	width:110px;
+	font-size: 14px;
+	float: left;
+	margin-left: 20px;
+	color:#aeaeae;
+	background: none;
+	border: none;
+	line-height: 28px;
+	outline: none;
+}
+nav .nav-right #img{
+	width:22px;
+	height: 20px;
+	float: right;
+	margin-top: 4px;
+	margin-right: 10px;
+	opacity: 0.6;
+}
+nav .nav-right a{
+	display: block;
+	width:70px;
+	height: 50px;
+	float: right;
+	text-decoration: none;
+	color:rgba(238,238,238,0.8);
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+}
+/*导航栏logo部分*/
+nav .nav-logo{
+	width:92px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+}
+nav .nav-logo img{
+	display: block;
+}

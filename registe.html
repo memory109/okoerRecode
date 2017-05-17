@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册 优恪</title>
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/registe.css">
+
+	<script type="text/javascript" src="js/user.js"></script>
+</head>
+<body>
+	<!-- 导航栏开始 -->
+	<nav>
+		<!-- 左侧部分 -->
+		<div class="nav-left">
+			<a href="index.html">首页</a>
+			<a href="info.html">资讯</a>
+			<a href="report.html">报告</a>
+			<a href="brand.html">品牌墙</a>
+			<a href="client.html">客户端</a>
+		</div>
+
+		<!-- 右侧侧部分 -->
+		<div class="nav-right">
+			<form>
+				<input type="text" id="search" placeholder="搜索">
+				<input type="image" src="img/search.png" id="img">
+			</form>	
+			<a href="logIn.html">登陆</a>
+			<a href="registe.html">注册</a>
+		</div>
+
+		<!-- 导航条logo部分 -->
+		<div class="nav-logo">
+			<a href="#">
+				<img src="img/logo.png" alt="">
+			</a>
+		</div>
+		
+	</nav>
+	<!-- 导航栏结束 -->
+
+	<!-- 注册区logo开始-->
+	<div class="registe_logo"></div>
+	<!-- 注册区logo开始-->
+	
+	<!-- 注册区开始 -->
+	<div class="registe">
+		<form id="" method="post" action="logIn.html" onsubmit="return registe();">
+			<div class="re_form">
+				<input type="text" placeholder="请输入用户名" id="username">
+				<input type="password" placeholder="请输入密码" id="password">
+				<input type="password" placeholder="请再次输入密码" id="password1">
+				<input type="text" placeholder="验证码" id="check">
+				<span id="checkShow"></span>
+				<input type="button" value="换一张" onclick="change()">
+			</div>
+			<input type="submit" value="创建新账号">
+		</form>
+		
+		<!-- 社交登陆 -->
+		<div>
+			<!-- 社交登陆 -->
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+	</div>
+	<!-- 注册区结束 -->
+	<script type="text/javascript" src="js/registe.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+	background-image: url(../img/registe.jpg);
+	background-size: cover;
+}
+/*注册logo*/
+.registe_logo{
+	width: 160px;
+	height: 52px;
+	margin: auto;
+	background: url(../img/registe_logo.png) no-repeat;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+/*注册区*/
+.re_form{
+	width: 300px;
+	margin:0px auto;
+	background: #fff;
+	overflow: hidden;
+}
+.re_form input[type="text"],.re_form input[type="email"],.re_form input[type="password"]{
+	width:295px;
+	height: 50px;
+	padding-left: 5px;
+	display: block;
+	border: none;
+	outline: none;
+	color:rgb(153, 153, 153);
+	border-bottom:1px solid #e4e4e4;
+	font-size: 12px;
+}
+.re_form #check{
+	width:80px;
+	float: left;
+}
+.re_form input[type="button"]{
+	float: right;
+	width: 95px;
+	height: 50px;
+	border:none;
+	background:none;
+	cursor: pointer;
+	outline: none;
+}
+.re_form span{
+	display: block;
+	width: 120px;
+	height: 50px;
+	border-bottom:1px solid #e4e4e4;
+	float: left;
+	line-height: 50px;
+	color:grey;
+	text-align: center;
+	background: #fff;
+	letter-spacing: 5px;
+}
+input[type="submit"]{
+	display: block;
+	width:300px;
+	height:50px;
+	border: none;
+	background: #1fbc5e;
+	color:#fff;
+	font-size: 16px;
+	line-height: 50px;
+	margin: 20px auto;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}

@@ -1,0 +1,158 @@
+/*网页底部*/
+footer{
+	min-width: 1200px;
+	width:100%;
+	background: #333;
+}
+.footerTop{
+	width:1160px;
+	margin:0px auto;
+	overflow: hidden;
+	height:260px;
+}
+/*上层的左半部分*/
+.footerLeft{
+	float: left;
+	width:560px;
+}
+.footerLeft div{
+	width:150px;
+	height: 120px;
+	background: url(../img/footer-logo.png);
+	background-size: cover;
+}
+.footerLeft h4{
+	margin-top: 15px;
+	font-size: 16px;
+	color: #ccc;
+	line-height: 30px;
+	font-weight: normal;
+}
+.footerLeft p{
+	font-size: 14px;
+	color:#666;
+	line-height: 28px;
+	height:110px;
+	padding-right: 80px;	
+}
+/*上层的中间部分*/
+.footerCenter{
+	float: left;
+	margin-top: 35px;
+	margin-left: 80px;
+}
+.footerCenter a{
+	display: block;
+	width:70px;
+	height:38px;
+	font-size: 14px;
+	color: #999;
+	line-height: 38px;
+	text-decoration: none;
+}
+.footerCenter a:hover{
+	color:#ccc;
+}
+/*上层的右边部分*/
+.footerRight{
+	float: left;
+	margin-top: 43px;
+	margin-left: 160px;
+}
+.footerRight a{
+	display: block;
+	width:150px;
+	height:60px;
+	text-decoration: none;
+}
+.footerRight a img{
+	display: block;
+	float: left;
+}
+.footerRight a span{
+	color: #999;
+	font-size: 14px;
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+/*底部分隔线*/
+footer .footer-line{
+	width:1160px;
+	margin: 0px auto;
+	height: 1px;
+	background-color:#3f3f3f; 
+}
+
+/*中层部分*/
+.footerCen{
+	width:1160px;
+	padding-top:30px;
+	margin: 30px auto;
+}
+.footerCen h4{
+	font-size: 16px;
+	color:#ccc;
+	font-weight: normal;
+} 
+.footerCen p{
+	margin-top: -30px;
+	color:#666;
+}
+.footerCen p a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 28px;
+	color:#666;
+}
+.footerCen p a:hover{
+	color:#CCC;
+}
+.footerCen span{
+	font-size: 14px;
+	color:#666;
+	line-height: 28px;
+}
+.footerBot{
+	min-width: 1200px;
+	width: 100%;
+	background: #393939;
+	text-align: center;
+	font-size: 12px;
+	line-height: 40px;
+	color:#666;
+}
+
+/*回到顶部部分*/
+.back{
+	position: fixed;
+	width:60px;
+	height:300px;
+	right:1%;
+	bottom:2%;
+	z-index: 1000;
+	display: none;
+}
+.back .backDiv{
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+	background-color: rgb(102, 102, 102); 
+	margin-bottom: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.back .backDiv1{
+	position: absolute;
+	top:-40px;
+	left:-175px;
+	display: none;
+}
+.back .backDiv2{
+	position: absolute;
+	top:125px;
+	left:-175px;
+	display: none;
+}

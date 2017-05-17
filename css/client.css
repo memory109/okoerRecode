@@ -1,0 +1,68 @@
+.head{
+	background: url(../img/clientBg.jpg);
+	background-size: cover;
+	height: 720px;
+}
+.headCon{
+	width: 1080px;
+	margin: 0 auto;
+	padding-top: 200px;
+	color: #ffffff;
+	position: relative;
+}
+.headCon>h1{
+	font-size: 36px;
+	font-weight: 500;
+}
+.headCon>p{
+	font-size: 16px;
+	margin-top: 60px;
+	opacity: 0.8;
+	font-weight: 100;
+}
+.headCon>div{
+	overflow: hidden;
+	margin-top: 100px;
+}
+.headCon>div p{
+	font-size: 24px;
+	margin-top: 40px;
+	font-weight: 100;
+	float: left;
+}
+.headCon>div img:nth-child(2){
+	display: block;
+	float: left;
+	margin-left: 40px;
+}
+.headCon>div img:nth-child(3){
+	display: block;
+	float: left;
+	margin-left: 40px;
+	position: absolute;
+	top: 260px;
+	right: 60px;
+}
+.content1{
+	background-color: #67c67d;
+	height: 720px;
+}
+.content1 img{
+	display: block;
+	width: 1000px;
+	padding-top: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content2{
+	background-color: #F0F0F0;
+	height: 720px;
+}
+.content2 img{
+	display: block;
+	width: 1080px;
+	padding-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
